@@ -65,6 +65,7 @@ Form çalışmıyor. Göreviniz, kullanıcı "Gönder "e tıkladığında gönde
           <input
             className="checkbox"
             type="checkbox"
+            checked={isAnonymousName}
             required={!nameValue.trim()}
             onChange={(e) => {
               if (e.target.checked) {
